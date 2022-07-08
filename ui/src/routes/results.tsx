@@ -65,7 +65,7 @@ function Results() {
               <Row justify="space-between">
                 <Col xs={24} sm={12} md={12} lg={12}>
                   <Title>
-                    Search results: {searchValue ? `"${searchValue}"` : null}{" "}
+                  {total}Search results: {searchValue ? `"${searchValue}"` : null}{" "}
                   </Title>
                 </Col>
 
